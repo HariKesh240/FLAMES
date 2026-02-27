@@ -7,6 +7,51 @@
   pointer-events: none;
 }
 
+/* Custom Navbar Background */
+.custom-navbar {
+  background-color: #FF4A55 !important;
+}
+
+/* Navbar brand and links */
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: #ffffff !important;
+}
+
+
+/* Custom Button */
+.btn-custom {
+  background-color: #FF4A55;
+  border-color: #FF4A55;
+  color: #ffffff;
+}
+
+/* Hover */
+.btn-custom:hover {
+  background-color: #e63f4a; /* slightly darker */
+  border-color: #e63f4a;
+  color: #ffffff;
+}
+
+
+/* Active / Focus */
+.btn-custom:focus,
+.btn-custom:active {
+  background-color: #cc3741;
+  border-color: #cc3741;
+  box-shadow: 0 0 0 0.2rem rgba(255, 74, 85, 0.4);
+}
+
+.btn-custom:disabled,
+.btn-custom.disabled {
+  background-color: #ff9aa2;   /* lighter faded red */
+  border-color: #ff9aa2;
+  color: #ffffff;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
