@@ -20,8 +20,7 @@ function Home() {
         let fname = name1.toLowerCase().replace(/\s/g, '');
         let sname = name2.toLowerCase().replace(/\s/g, '');
 
-        if(fname ==="harikesh" && sname==="roshitha" || sname ==="harikesh" && fname==="roshitha")
-        {
+      if ((fname === "harikesh" && sname === "roshitha") || (sname === "harikesh" && fname === "roshitha"))        {
           alert("Check pannve venda You are Good Couples");
           return;
         }
