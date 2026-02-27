@@ -23,10 +23,8 @@ function Home() {
         if (fname === "sibiraj" || sname === "sibiraj"||fname === "sibi" || sname === "sibi")
         {
           alert("LGBTQ Not Supported");
-          return;
-        }
-      if ((fname === "harikesh" && sname === "roshitha") || (sname === "harikesh" && fname === "roshitha"))        {
-          alert("Check pannve venda You are Good Couples");
+          setName1("");
+          setName2("");
           return;
         }
         // Removing Common Letters
